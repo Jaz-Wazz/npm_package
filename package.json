@@ -7,7 +7,7 @@
 		"build": "tsc src/main.ts --outDir build",
 		"prepare": "npm run build"
 	},
-	"main": "src/main.js",
+	"main": "build/main.js",
 	"author": "Jaz-Wazz",
 	"license": "MIT",
 	"devDependencies":
