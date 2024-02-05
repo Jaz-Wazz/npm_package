@@ -1,0 +1,17 @@
+{
+	"name": "npm_package",
+	"version": "0.0.1",
+	"description": "Test git npm package.",
+	"scripts":
+	{
+		"build": "tsc src/main.ts --outDir build",
+		"prepare": "npm run build"
+	},
+	"main": "src/main.js",
+	"author": "Jaz-Wazz",
+	"license": "MIT",
+	"devDependencies":
+	{
+		"typescript": "^5.2.2"
+	}
+}
