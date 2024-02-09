@@ -1,11 +1,11 @@
 {
 	"name": "npm_package",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Test git npm package.",
 	"scripts":
 	{
 		"build": "tsc src/main.ts --outDir build --declaration true",
-		"prepare": "npm run build"
+		"prepare": "node -e \"if (process.env.INIT_CWD !== process.cwd()) process.exit(1)\" || npm run build"
 	},
 	"main": "build/main.js",
 	"types": "build/main.d.ts",
