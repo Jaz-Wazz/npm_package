@@ -1,6 +1,6 @@
 {
 	"name": "npm_package",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Test git npm package.",
 	"scripts":
 	{
@@ -8,10 +8,8 @@
 		"prepare": "npm run build"
 	},
 	"main": "build/main.js",
+	"types": "build/main.d.ts",
 	"author": "Jaz-Wazz",
 	"license": "MIT",
-	"devDependencies":
-	{
-		"typescript": "^5.2.2"
-	}
+	"devDependencies": {"typescript": "^5.2.2"}
 }
